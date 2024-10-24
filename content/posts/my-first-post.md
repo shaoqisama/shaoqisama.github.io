@@ -4,5 +4,5 @@ draft = false
 title = 'My First Post'
 +++
 
-This is a official **shaoqisama** website, Big wherecome, my friend!
+This is a official **shaoqisama** website, Big welcome, my friend!
 Visit the [shaoqisama](https://shaoqisama.github.io) website!
