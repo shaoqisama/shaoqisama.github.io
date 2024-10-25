@@ -2,36 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:33575/music/m2b/</loc>
+    <loc>http://localhost:43993/music/m2b/</loc>
     <lastmod>2024-10-24T15:44:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:33575/music/</loc>
+    <loc>http://localhost:43993/music/</loc>
     <lastmod>2024-10-24T15:44:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:33575/</loc>
+    <loc>http://localhost:43993/</loc>
     <lastmod>2024-10-24T15:44:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:33575/posts/my-first-post/</loc>
+    <loc>http://localhost:43993/posts/my-first-post/</loc>
     <lastmod>2024-10-24T10:30:33+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:33575/posts/</loc>
+    <loc>http://localhost:43993/posts/</loc>
     <lastmod>2024-10-24T10:30:33+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:33575/categories/</loc>
+    <loc>http://localhost:43993/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:33575/tags/</loc>
+    <loc>http://localhost:43993/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

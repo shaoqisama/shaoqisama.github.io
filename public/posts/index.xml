@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on shaoqisama</title>
-    <link>http://localhost:33575/posts/</link>
+    <link>http://localhost:43993/posts/</link>
     <description>Recent content in Posts on shaoqisama</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 24 Oct 2024 10:30:33 +0800</lastBuildDate>
-    <atom:link href="http://localhost:33575/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:43993/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>http://localhost:33575/posts/my-first-post/</link>
+      <link>http://localhost:43993/posts/my-first-post/</link>
       <pubDate>Thu, 24 Oct 2024 10:30:33 +0800</pubDate>
-      <guid>http://localhost:33575/posts/my-first-post/</guid>
+      <guid>http://localhost:43993/posts/my-first-post/</guid>
       <description>&lt;p&gt;This is a official &lt;strong&gt;shaoqisama&lt;/strong&gt; website, Big welcome, my friend!&#xA;Visit the &lt;a href=&#34;https://shaoqisama.github.io&#34;&gt;shaoqisama&lt;/a&gt; website!&lt;/p&gt;</description>
     </item>
   </channel>

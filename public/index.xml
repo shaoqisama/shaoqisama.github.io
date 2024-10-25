@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shaoqisama</title>
-    <link>http://localhost:33575/</link>
+    <link>http://localhost:43993/</link>
     <description>Recent content on shaoqisama</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 24 Oct 2024 15:44:27 +0800</lastBuildDate>
-    <atom:link href="http://localhost:33575/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:43993/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>MEANT TO BE OUTNOW!</title>
-      <link>http://localhost:33575/music/m2b/</link>
+      <title>MEANT TO BE IS OUTNOW!</title>
+      <link>http://localhost:43993/music/m2b/</link>
       <pubDate>Thu, 24 Oct 2024 15:44:27 +0800</pubDate>
-      <guid>http://localhost:33575/music/m2b/</guid>
+      <guid>http://localhost:43993/music/m2b/</guid>
       <description>&lt;iframe allow=&#34;autoplay *; encrypted-media *; fullscreen *; clipboard-write&#34; frameborder=&#34;0&#34; height=&#34;175&#34; style=&#34;width:100%;max-width:660px;overflow:hidden;border-radius:10px;&#34; sandbox=&#34;allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation&#34; src=&#34;https://embed.music.apple.com/cn/album/%E5%91%BD%E4%B8%AD%E6%B3%A8%E5%AE%9A/1771827378?i=1771827560&#34;&gt;&lt;/iframe&gt;</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:33575/posts/my-first-post/</link>
+      <link>http://localhost:43993/posts/my-first-post/</link>
       <pubDate>Thu, 24 Oct 2024 10:30:33 +0800</pubDate>
-      <guid>http://localhost:33575/posts/my-first-post/</guid>
+      <guid>http://localhost:43993/posts/my-first-post/</guid>
       <description>&lt;p&gt;This is a official &lt;strong&gt;shaoqisama&lt;/strong&gt; website, Big welcome, my friend!&#xA;Visit the &lt;a href=&#34;https://shaoqisama.github.io&#34;&gt;shaoqisama&lt;/a&gt; website!&lt;/p&gt;</description>
     </item>
   </channel>

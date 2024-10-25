@@ -18,8 +18,8 @@ pagerSize = 3 # this is set low for demonstrating with dummy content. Set to a h
 
 [languages]
 [languages.en]
-weight = 1
-contentDir = "content/"
+# weight = 1
+# contentDir = "content/"
 # languageDirection = 'rtl' for Right-To-Left languages
 
 [sitemap]
