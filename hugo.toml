@@ -77,3 +77,7 @@ username = "kollitsch.dev"
     name = 'Posts'
     pageRef = '/posts'
     weight = 40
+
+[services]
+  [services.disqus]
+    shortname = 'shaoqisamablog'
