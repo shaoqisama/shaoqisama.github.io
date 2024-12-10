@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coding on shaoqisama</title>
+    <link>http://localhost:33909/tags/coding/</link>
+    <description>Recent content in Coding on shaoqisama</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 02 Dec 2024 14:28:52 +0800</lastBuildDate>
+    <atom:link href="http://localhost:33909/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C dev env in WSL</title>
+      <link>http://localhost:33909/posts/c-dev-in-wsl/</link>
+      <pubDate>Mon, 02 Dec 2024 14:28:52 +0800</pubDate>
+      <guid>http://localhost:33909/posts/c-dev-in-wsl/</guid>
+      <description>&lt;h1 id=&#34;setting-up-a-c-development-environment-on-vs-code-with-wsl-ubuntu&#34;&gt;Setting Up a C Development Environment on VS Code with WSL (Ubuntu)&lt;/h1&gt;&#xA;&lt;p&gt;Learn how to configure a complete C development environment on &lt;strong&gt;Visual Studio Code (VS Code)&lt;/strong&gt; using &lt;strong&gt;Windows Subsystem for Linux (WSL)&lt;/strong&gt; with Ubuntu.&lt;/p&gt;&#xA;&lt;hr&gt;</description>
+    </item>
+  </channel>
+</rss>

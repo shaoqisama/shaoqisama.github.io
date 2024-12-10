@@ -1,13 +1,15 @@
 +++
 date = '2024-12-02T14:28:52+08:00'
 draft = false
-title = 'C_dev_in_WSL'
+title = 'C dev env in WSL'
+tags = ['coding']
 +++
 # Setting Up a C Development Environment on VS Code with WSL (Ubuntu)
 
 Learn how to configure a complete C development environment on **Visual Studio Code (VS Code)** using **Windows Subsystem for Linux (WSL)** with Ubuntu.
 
 ---
+<!--more-->
 
 ## Step 1: Install Required Software
 

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=33909&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
@@ -14,6 +14,8 @@
     
       <meta name="robots" content="noindex, nofollow">
     
+    
+      <meta name="author" content = "shaoqisama">
     
 
     
@@ -36,10 +38,10 @@
     
 
     
-      <link rel="canonical" href="http://localhost:1313/posts/">
+      <link rel="canonical" href="http://localhost:33909/posts/">
     
 
-    <meta property="og:url" content="http://localhost:1313/posts/">
+    <meta property="og:url" content="http://localhost:33909/posts/">
   <meta property="og:site_name" content="shaoqisama">
   <meta property="og:title" content="Posts">
   <meta property="og:description" content="The last theme you&#39;ll ever need. Maybe.">
@@ -48,8 +50,8 @@
 
   <meta itemprop="name" content="Posts">
   <meta itemprop="description" content="The last theme you&#39;ll ever need. Maybe.">
-  <meta itemprop="datePublished" content="2024-12-02T14:28:52+08:00">
-  <meta itemprop="dateModified" content="2024-12-02T14:28:52+08:00">
+  <meta itemprop="datePublished" content="2024-12-09T17:44:28+08:00">
+  <meta itemprop="dateModified" content="2024-12-09T17:44:28+08:00">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Posts">
   <meta name="twitter:description" content="The last theme you&#39;ll ever need. Maybe.">
@@ -149,205 +151,34 @@
   <div class="bg-white mb3 pa4 gray overflow-hidden">
     <span class="f6 db">Posts</span>
     <h1 class="f3 near-black">
+      <a href="/posts/%E5%A4%A9%E9%B9%85%E6%B9%96%E4%B9%8B%E6%97%85/" class="link black dim">
+        天鹅湖之旅
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <h1 id="冬日高铁之旅西安至三门峡天鹅湖">冬日高铁之旅：西安至三门峡天鹅湖</h1>
+<h2 id="引言">引言</h2>
+<p>西安的冬日，天空低垂，预示着一场雪的降临。古城墙在寒风中静默，历史的沉淀与季节的萧瑟交织成一幅静谧的画面。在这个即将银装素裹的季节，我决定踏上一段特别的旅程——乘坐高铁前往三门峡，去寻觅那些在冬日寒风中依然优雅起舞的天鹅。</p>
+    </div>
+    <a href="/posts/%E5%A4%A9%E9%B9%85%E6%B9%96%E4%B9%8B%E6%97%85/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
       <a href="/posts/c-dev-in-wsl/" class="link black dim">
-        C_dev_in_WSL
+        C dev env in WSL
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       <h1 id="setting-up-a-c-development-environment-on-vs-code-with-wsl-ubuntu">Setting Up a C Development Environment on VS Code with WSL (Ubuntu)</h1>
 <p>Learn how to configure a complete C development environment on <strong>Visual Studio Code (VS Code)</strong> using <strong>Windows Subsystem for Linux (WSL)</strong> with Ubuntu.</p>
 <hr>
-<h2 id="step-1-install-required-software">Step 1: Install Required Software</h2>
-<h3 id="install-wsl">Install WSL</h3>
-<ol>
-<li>Open PowerShell as Administrator.</li>
-<li>Run:
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>wsl --install
-</span></span></code></pre></div></li>
-<li>If WSL is already installed, ensure it’s updated:
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>wsl --update
-</span></span></code></pre></div></li>
-</ol>
-<h3 id="install-ubuntu">Install Ubuntu</h3>
-<ol>
-<li>Install <strong>Ubuntu</strong> from the Microsoft Store.</li>
-<li>Open Ubuntu and set up a username and password.</li>
-</ol>
-<h3 id="install-vs-code">Install VS Code</h3>
-<ol>
-<li>Download and install VS Code from the <a href="https://code.visualstudio.com/">official website</a>.</li>
-</ol>
-<h3 id="install-vs-code-wsl-extension">Install VS Code WSL Extension</h3>
-<ol>
-<li>Open VS Code.</li>
-<li>Go to Extensions (<code>Ctrl+Shift+X</code>).</li>
-<li>Search for <code>Remote - WSL</code> and install it.</li>
-</ol>
-<hr>
-<h2 id="step-2-set-up-gcc-compiler-on-wsl">Step 2: Set Up GCC Compiler on WSL</h2>
-<ol>
-<li><strong>Update Package List:</strong>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt update
-</span></span></code></pre></div></li>
-<li><strong>Install Build Essentials:</strong>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install build-essential
-</span></span></code></pre></div><ul>
-<li>This includes <code>gcc</code>, <code>g++</code>, <code>make</code>, and other essential tools.</li>
-</ul>
-</li>
-<li><strong>Verify GCC Installation:</strong>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gcc --version
-</span></span></code></pre></div></li>
-</ol>
-<hr>
-<h2 id="step-3-install-debugging-tools">Step 3: Install Debugging Tools</h2>
-<ol>
-<li><strong>Install GDB:</strong>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install gdb
-</span></span></code></pre></div></li>
-<li><strong>Verify GDB Installation:</strong>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gdb --version
-</span></span></code></pre></div></li>
-</ol>
-<hr>
-<h2 id="step-4-configure-vs-code-for-c-development">Step 4: Configure VS Code for C Development</h2>
-<h3 id="open-wsl-in-vs-code">Open WSL in VS Code</h3>
-<ol>
-<li>Press <code>Ctrl+Shift+P</code> and type <code>Remote-WSL: New Window</code>.</li>
-<li>Select this option to open VS Code in WSL mode.</li>
-</ol>
-<h3 id="install-extensions-for-c-development">Install Extensions for C Development</h3>
-<ol>
-<li>Open the Extensions view (<code>Ctrl+Shift+X</code>).</li>
-<li>Install:
-<ul>
-<li><strong>C/C++</strong> by Microsoft.</li>
-<li><strong>Code Runner</strong> (optional, for quick code execution).</li>
-</ul>
-</li>
-</ol>
-<h3 id="set-up-your-project">Set Up Your Project</h3>
-<ol>
-<li>Create a project folder in WSL:
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir ~/projects/my_c_project
-</span></span><span style="display:flex;"><span>cd ~/projects/my_c_project
-</span></span></code></pre></div></li>
-<li>Open the folder in VS Code:
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>code .
-</span></span></code></pre></div></li>
-</ol>
-<h3 id="configure-build-tasks">Configure Build Tasks</h3>
-<ol>
-<li>Press <code>Ctrl+Shift+P</code> → type <code>Tasks: Configure Default Build Task</code> → select <strong>Create tasks.json file from template</strong> → choose <strong>Others</strong>.</li>
-<li>Edit <code>tasks.json</code>:
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;version&#34;</span>: <span style="color:#e6db74">&#34;2.0.0&#34;</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;tasks&#34;</span>: [
-</span></span><span style="display:flex;"><span>    {
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;label&#34;</span>: <span style="color:#e6db74">&#34;Build C Program&#34;</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;type&#34;</span>: <span style="color:#e6db74">&#34;shell&#34;</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;command&#34;</span>: <span style="color:#e6db74">&#34;gcc&#34;</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;args&#34;</span>: [
-</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;-g&#34;</span>,
-</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;${file}&#34;</span>,
-</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;-o&#34;</span>,
-</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;${fileDirname}/${fileBasenameNoExtension}&#34;</span>
-</span></span><span style="display:flex;"><span>      ],
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;group&#34;</span>: {
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;kind&#34;</span>: <span style="color:#e6db74">&#34;build&#34;</span>,
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;isDefault&#34;</span>: <span style="color:#66d9ef">true</span>
-</span></span><span style="display:flex;"><span>      },
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;problemMatcher&#34;</span>: [<span style="color:#e6db74">&#34;$gcc&#34;</span>],
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;detail&#34;</span>: <span style="color:#e6db74">&#34;Generated by the task system.&#34;</span>
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>  ]
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div></li>
-</ol>
-<h3 id="configure-debugging">Configure Debugging</h3>
-<ol>
-<li>Go to the Run and Debug view (<code>Ctrl+Shift+D</code>).</li>
-<li>Click <strong>create a launch.json file</strong> → select <strong>C++ (GDB/LLDB)</strong>.</li>
-<li>Edit <code>launch.json</code>:
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;version&#34;</span>: <span style="color:#e6db74">&#34;0.2.0&#34;</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;configurations&#34;</span>: [
-</span></span><span style="display:flex;"><span>    {
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;GCC Debug&#34;</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;type&#34;</span>: <span style="color:#e6db74">&#34;cppdbg&#34;</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;request&#34;</span>: <span style="color:#e6db74">&#34;launch&#34;</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;program&#34;</span>: <span style="color:#e6db74">&#34;${fileDirname}/${fileBasenameNoExtension}&#34;</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;args&#34;</span>: [],
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;stopAtEntry&#34;</span>: <span style="color:#66d9ef">false</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;cwd&#34;</span>: <span style="color:#e6db74">&#34;${workspaceFolder}&#34;</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;environment&#34;</span>: [],
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;externalConsole&#34;</span>: <span style="color:#66d9ef">false</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;MIMode&#34;</span>: <span style="color:#e6db74">&#34;gdb&#34;</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;setupCommands&#34;</span>: [
-</span></span><span style="display:flex;"><span>        {
-</span></span><span style="display:flex;"><span>          <span style="color:#f92672">&#34;description&#34;</span>: <span style="color:#e6db74">&#34;Enable pretty-printing for gdb&#34;</span>,
-</span></span><span style="display:flex;"><span>          <span style="color:#f92672">&#34;text&#34;</span>: <span style="color:#e6db74">&#34;-enable-pretty-printing&#34;</span>,
-</span></span><span style="display:flex;"><span>          <span style="color:#f92672">&#34;ignoreFailures&#34;</span>: <span style="color:#66d9ef">true</span>
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>      ],
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;preLaunchTask&#34;</span>: <span style="color:#e6db74">&#34;Build C Program&#34;</span>
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>  ]
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div></li>
-</ol>
-<hr>
-<h2 id="step-5-write-and-run-a-c-program">Step 5: Write and Run a C Program</h2>
-<h3 id="create-a-c-file">Create a C File</h3>
-<ol>
-<li>Inside your project folder, create a new file <code>main.c</code>:
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() {
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;Hello, WSL and VS Code!n&#34;</span>);
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div></li>
-</ol>
-<h3 id="build-the-program">Build the Program</h3>
-<ol>
-<li>Press <code>Ctrl+Shift+B</code> to build the program.</li>
-</ol>
-<h3 id="run-the-program">Run the Program</h3>
-<ol>
-<li>Execute the compiled program in the terminal:
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>./main
-</span></span></code></pre></div></li>
-</ol>
-<h3 id="debug-the-program">Debug the Program</h3>
-<ol>
-<li>Press <code>F5</code> to start debugging.</li>
-</ol>
-<hr>
-<h2 id="step-6-optional-enhancements">Step 6: Optional Enhancements</h2>
-<h3 id="linting-and-formatting">Linting and Formatting</h3>
-<ol>
-<li>Install <code>clang-format</code> and <code>clang-tidy</code>:
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install clang-format clang-tidy
-</span></span></code></pre></div></li>
-<li>Configure these tools in VS Code settings.</li>
-</ol>
-<h3 id="git-integration">Git Integration</h3>
-<ol>
-<li>Initialize a Git repository:
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git init
-</span></span></code></pre></div></li>
-<li>Use VS Code’s Git tools for version control.</li>
-</ol>
-<h3 id="terminal-customization">Terminal Customization</h3>
-<ol>
-<li>Install <code>zsh</code> and <code>oh-my-zsh</code> for a better terminal experience:
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install zsh
-</span></span><span style="display:flex;"><span>sh -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
-</span></span></code></pre></div></li>
-</ol>
-<hr>
-<p>You’re now ready to start C programming on VS Code with WSL Ubuntu. Happy coding!</p>
     </div>
     <a href="/posts/c-dev-in-wsl/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
@@ -361,12 +192,11 @@
     <span class="f6 db">Posts</span>
     <h1 class="f3 near-black">
       <a href="/posts/bird_test/" class="link black dim">
-        Bird_test
+        Birds @ Zoo
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      <h1 id="big-bird--zoo">Big bird @ Zoo</h1>
-<p>Here is a bird image that I would like to share with you:</p>
+      <p>Here is a bird image that I would like to share with you:</p>
 <img src="https://s2.loli.net/2024/11/28/aAv79WVPD8nBHIQ.jpg" alt="DSC_2384-Enhanced-NR.jpg" width="400" height="auto">
     </div>
     <a href="/posts/bird_test/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
@@ -399,7 +229,7 @@ Visit the <a href="https://shaoqisama.github.io">shaoqisama</a> website!</p>
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:33909/" >
     &copy;  shaoqisama 2024 
   </a>
     <div><div class="ananke-socials"><a href="https://www.facebook.com/patrick.kollitsch" target="_blank" rel="noopener"

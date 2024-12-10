@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Galleries on shaoqisama</title>
-    <link>http://localhost:1313/gallery/</link>
+    <link>http://localhost:33909/gallery/</link>
     <description>Recent content in Galleries on shaoqisama</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/gallery/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:33909/gallery/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gallery</title>
-      <link>http://localhost:1313/gallery/gallery/</link>
+      <link>http://localhost:33909/gallery/gallery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gallery/gallery/</guid>
+      <guid>http://localhost:33909/gallery/gallery/</guid>
       <description>&lt;div class=&#34;gallery-grid&#34;&gt;&#xA;  &lt;img src=&#34;https://s2.loli.net/2024/11/28/aAv79WVPD8nBHIQ.jpg&#34; alt=&#34;DSC_2384-Enhanced-NR.jpg&#34;&gt;&#xA;  &lt;img src=&#34;https://s2.loli.net/2024/11/28/aAv79WVPD8nBHIQ.jpg&#34; alt=&#34;DSC_2384-Enhanced-NR.jpg&#34;&gt;&#xA;  &lt;img src=&#34;https://s2.loli.net/2024/11/28/aAv79WVPD8nBHIQ.jpg&#34; alt=&#34;DSC_2384-Enhanced-NR.jpg&#34;&gt;&#xA;&lt;/div&gt;</description>
     </item>
   </channel>

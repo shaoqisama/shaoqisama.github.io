@@ -1,5 +1,5 @@
 +++
-date = '2024-10-24T15:44:27+08:00'
+date = '2024-10-01T15:44:27+08:00'
 draft = false
 title = 'MEANT TO BE IS OUTNOW!'
 +++
