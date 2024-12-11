@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Photo on shaoqisama</title>
-    <link>http://localhost:33909/tags/photo/</link>
+    <link>http://localhost:1313/tags/photo/</link>
     <description>Recent content in Photo on shaoqisama</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.136.4</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Dec 2024 17:44:28 +0800</lastBuildDate>
-    <atom:link href="http://localhost:33909/tags/photo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/photo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>天鹅湖之旅</title>
-      <link>http://localhost:33909/posts/%E5%A4%A9%E9%B9%85%E6%B9%96%E4%B9%8B%E6%97%85/</link>
+      <link>http://localhost:1313/posts/%E5%A4%A9%E9%B9%85%E6%B9%96%E4%B9%8B%E6%97%85/</link>
       <pubDate>Mon, 09 Dec 2024 17:44:28 +0800</pubDate>
-      <guid>http://localhost:33909/posts/%E5%A4%A9%E9%B9%85%E6%B9%96%E4%B9%8B%E6%97%85/</guid>
-      <description>&lt;h1 id=&#34;冬日高铁之旅西安至三门峡天鹅湖&#34;&gt;冬日高铁之旅：西安至三门峡天鹅湖&lt;/h1&gt;&#xA;&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;&#xA;&lt;p&gt;西安的冬日，天空低垂，预示着一场雪的降临。古城墙在寒风中静默，历史的沉淀与季节的萧瑟交织成一幅静谧的画面。在这个即将银装素裹的季节，我决定踏上一段特别的旅程——乘坐高铁前往三门峡，去寻觅那些在冬日寒风中依然优雅起舞的天鹅。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/%E5%A4%A9%E9%B9%85%E6%B9%96%E4%B9%8B%E6%97%85/</guid>
+      <description>&lt;h1 id=&#34;冬日高铁之旅西安至三门峡天鹅湖&#34;&gt;冬日高铁之旅：西安至三门峡天鹅湖&lt;/h1&gt;
+&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;西安的冬日，天空低垂，预示着一场雪的降临。古城墙在寒风中静默，历史的沉淀与季节的萧瑟交织成一幅静谧的画面。在这个即将银装素裹的季节，我决定踏上一段特别的旅程——乘坐高铁前往三门峡，去寻觅那些在冬日寒风中依然优雅起舞的天鹅。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,7 +1,7 @@
 baseURL = 'https://shaoqisama.github.io/'
 languageCode = 'en-us'
 title = 'shaoqisama'
-theme = 'ananke'
+theme = 'hugo-PaperMod'
 
 resourceDir = "../resources"
 
