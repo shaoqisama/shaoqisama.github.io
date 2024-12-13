@@ -2,7 +2,7 @@ baseURL = 'https://shaoqisama.github.io/'
 languageCode = 'en-us'
 title = 'shaoqisama'
 theme = 'hugo-PaperMod'
-
+timeout = 60000 # This is required for larger galleries to be build (60 sec)
 resourceDir = "../resources"
 
 DefaultContentLanguage = "en"
@@ -49,7 +49,7 @@ mainSections = ["posts", "music"]
 [params.homeInfoParams]
 Title = "Hi there!"
 
-Content = "Welcome to the official Shaoqisama website! 🎨✨ I'm a musician🎵, photographer 📸, and coder 💻. Let's build beautiful things together! 🚀🌟"
+Content = "Welcome to the official shaoqisama website! 🎨✨ I'm a musician🎵, photographer 📸, and coder 💻. Let's build beautiful things together! 🚀🌟"
 
 [[params.socialIcons]]
 name = "applemusic"
@@ -107,4 +107,4 @@ username = "kollitsch.dev"
     
 [module]
 [[module.imports]]
-path = "github.com/rootwork/hugo-module-gallery-grid"
+path = "github.com/mfg92/hugo-shortcode-gallery"
