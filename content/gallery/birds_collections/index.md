@@ -2,7 +2,7 @@
 title: birds collections
 draft: false
 cover:
-  image: images/20230719-DSC_1617.jpg
+  image: https://s2.loli.net/2024/12/14/QaXZvoJBKg5rMTs.jpg
 ---
 {{< gallery 
     match="images/*" 
