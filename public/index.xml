@@ -1,0 +1,1855 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>shaoqisama</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on shaoqisama</description>
+    <generator>Hugo -- 0.136.4</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 19 Dec 2024 14:37:38 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Config Ntp Linux</title>
+      <link>http://localhost:1313/posts/config-ntp-linux/</link>
+      <pubDate>Thu, 19 Dec 2024 14:37:38 +0800</pubDate>
+      <guid>http://localhost:1313/posts/config-ntp-linux/</guid>
+      <description>&lt;h2 id=&#34;1-understanding-chrony-vs-ntp&#34;&gt;1. &lt;strong&gt;Understanding Chrony vs NTP&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Chrony&lt;/strong&gt;: A fast, flexible NTP implementation for Linux, ideal for intermittent or variable clock systems.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ntpq&lt;/strong&gt;: A tool for querying traditional NTP servers (&lt;code&gt;ntpd&lt;/code&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;Feature&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Chrony (chronyc)&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;ntpq&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Implementation&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Part of the Chrony NTP implementation&lt;/td&gt;
+          &lt;td&gt;Part of the ntpd implementation&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Focus&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Lightweight, fast synchronization&lt;/td&gt;
+          &lt;td&gt;Detailed monitoring of ntpd&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Efficiency&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Better for unstable or intermittent networks&lt;/td&gt;
+          &lt;td&gt;Less efficient in unstable networks&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Time Sources&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Supports NTP, GPS, PPS, and more&lt;/td&gt;
+          &lt;td&gt;Primarily NTP&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Commands&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Uses chronyc for querying and control&lt;/td&gt;
+          &lt;td&gt;Uses ntpq for querying ntpd&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Suitability&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Ideal for modern systems and VMs&lt;/td&gt;
+          &lt;td&gt;Traditional systems with ntpd&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>天鹅湖之旅</title>
+      <link>http://localhost:1313/posts/%E5%A4%A9%E9%B9%85%E6%B9%96%E4%B9%8B%E6%97%85/</link>
+      <pubDate>Mon, 09 Dec 2024 17:44:28 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E5%A4%A9%E9%B9%85%E6%B9%96%E4%B9%8B%E6%97%85/</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;西安的冬日，天空低垂，预示着一场雪的降临。古城墙在寒风中静默，历史的沉淀与季节的萧瑟交织成一幅静谧的画面。在这个即将银装素裹的季节，我决定踏上一段特别的旅程——乘坐高铁前往三门峡，去寻觅那些在冬日寒风中依然优雅起舞的天鹅。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>C dev env in WSL</title>
+      <link>http://localhost:1313/posts/c-dev-in-wsl/</link>
+      <pubDate>Mon, 02 Dec 2024 14:28:52 +0800</pubDate>
+      <guid>http://localhost:1313/posts/c-dev-in-wsl/</guid>
+      <description>&lt;h1 id=&#34;setting-up-a-c-development-environment-on-vs-code-with-wsl-ubuntu&#34;&gt;Setting Up a C Development Environment on VS Code with WSL (Ubuntu)&lt;/h1&gt;
+&lt;p&gt;Learn how to configure a complete C development environment on &lt;strong&gt;Visual Studio Code (VS Code)&lt;/strong&gt; using &lt;strong&gt;Windows Subsystem for Linux (WSL)&lt;/strong&gt; with Ubuntu.&lt;/p&gt;
+&lt;hr&gt;</description>
+    </item>
+    <item>
+      <title>Birds @ Zoo</title>
+      <link>http://localhost:1313/posts/bird_test/</link>
+      <pubDate>Thu, 28 Nov 2024 14:23:41 +0800</pubDate>
+      <guid>http://localhost:1313/posts/bird_test/</guid>
+      <description>&lt;p&gt;Here is a bird image that I would like to share with you:&lt;/p&gt;
+&lt;img src=&#34;https://s2.loli.net/2024/11/28/aAv79WVPD8nBHIQ.jpg&#34; alt=&#34;DSC_2384-Enhanced-NR.jpg&#34; width=&#34;400&#34; height=&#34;auto&#34;&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Thu, 24 Oct 2024 10:30:33 +0800</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;This is a official &lt;strong&gt;shaoqisama&lt;/strong&gt; website, Big welcome, my friend!
+Visit the &lt;a href=&#34;https://shaoqisama.github.io&#34;&gt;shaoqisama&lt;/a&gt; website!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MEANT TO BE IS OUTNOW!</title>
+      <link>http://localhost:1313/music/meant-to-be-out-now/</link>
+      <pubDate>Tue, 01 Oct 2024 15:44:27 +0800</pubDate>
+      <guid>http://localhost:1313/music/meant-to-be-out-now/</guid>
+      <description>&lt;iframe allow=&#34;autoplay *; encrypted-media *; fullscreen *; clipboard-write&#34; frameborder=&#34;0&#34; height=&#34;175&#34; style=&#34;width:100%;max-width:660px;overflow:hidden;border-radius:10px;&#34; sandbox=&#34;allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation&#34; src=&#34;https://embed.music.apple.com/cn/album/%E5%91%BD%E4%B8%AD%E6%B3%A8%E5%AE%9A/1771827378?i=1771827560&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
+    <item>
+      <title>birds collections</title>
+      <link>http://localhost:1313/gallery/birds_collections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gallery/birds_collections/</guid>
+      <description>&lt;script src=&#34;http://localhost:1313/shortcode-gallery/jquery-3.7.1.min.js&#34;&gt;&lt;/script&gt;
+	
+
+	
+		&lt;script src=&#34;http://localhost:1313/shortcode-gallery/lazy/jquery.lazy.min.js&#34;&gt;&lt;/script&gt;
+	
+
+	&lt;script src=&#34;http://localhost:1313/shortcode-gallery/swipebox/js/jquery.swipebox.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/shortcode-gallery/swipebox/css/swipebox.min.css&#34;&gt;
+
+	&lt;script src=&#34;http://localhost:1313/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/shortcode-gallery/justified_gallery/justifiedGallery.min.css&#34;/&gt;
+
+
+&lt;style&gt;
+	
+
+	
+&lt;/style&gt;
+
+
+
+
+
+&lt;div id=&#34;gallery-e758e866070711f7e84a38ebfa636591-0-wrapper&#34; class=&#34;gallery-wrapper&#34;&gt;
+&lt;div id=&#34;gallery-e758e866070711f7e84a38ebfa636591-0&#34; class=&#34;justified-gallery&#34;&gt;
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/jingang.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;399&#34; height=&#34;600&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAFQMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AOFihg&amp;#43;xuqzgyqcBNvbnJ6/lVyO2lmsrfygWI5Vu5x/TrVJdMuJB56DdIZBHGAcAE4x&amp;#43;nU16J4f0zTrOwuIEaS5uolwWZT5URIyAD2B&amp;#43;tePiJW21PSw1SEFZrU4y60hldZWUL5g6bwCP85qv/Zh9B/38H&amp;#43;FehWekpqtst08ZtEPyqkgDEMPvAcjjpU//AAi9v/z8x/8Afof/ABVFOo&amp;#43;VXNqkqfM7L8TzW7EVs0U1nN5iRsWkg&amp;#43;&amp;#43;NowCG9uv51uaWbuWO4it4ykd2ySeUjFQuAcj6Hd&amp;#43;tJpsWnPYXMEkkVooBHnq2S425A75Ocj8KSe5H2eeLTrg2wa2DSBTgyP2A647d/SibdjghNRfMbEmsWbySWn2ya4W1crliCAx&amp;#43;9t9s0z7fZf3m/T/GuW0lIbWJ0vLSVckbQFGQe&amp;#43;cke1X/AD9M/wCfa4/75X/GolRbejJcnJ3Z/9k=&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/jingang_hu2068793481035075511.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/guaiguai.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;399&#34; height=&#34;600&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAFQMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/ANj7HMs6iSAOzABVuE3fL2ALcgfjVSfSkgQqY5baQNvLI&amp;#43;U/746frWr4ss7/AOywRQxETu3BEgdSo4YfUZq9b6ev2JIpRufALEkklsc16bxHLNJrRnuTxcY1FdaPqc1eWAvZzJObK44G1pR5Tfjgc1B/Ylt/z76d/wB/2/wrT1C5tXujtaKwUDAW4dsN/ukA5/H1qr51v/0FtP8A&amp;#43;&amp;#43;3/APia1vTlr&amp;#43;gvaUXrf8DpZY4LPWo7VcspVpBvUjnjOM/rir0iIYnKgkkHPzHP4VwB8Tx6n4ns5IppJAkEjHzGH7sY6cfTvXVpqOI1O4bvc152IvGaODE351rexyesSfb2hL204KKcYIPWs37JH/z73P5Cna5epaanLEQU&amp;#43;csAG7E5/rWd/a0f95/&amp;#43;&amp;#43;zXW60D0v3UtT//Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/guaiguai_hu15230354611309709594.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/dazui.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;399&#34; height=&#34;600&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAFQMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APMrewvdhMcEmAu4sAeBmvQPCV5JYRWq39wjLbhhBHt3FGOcnjnnH6U3QtftUsRpt1oZt4ymVCsTvGM8ZIJz25NTSSWOqwO&amp;#43;hW8ryld7EcK5Gcq2QMNj06142JqzkrcrXnp&amp;#43;dz16FouzKnibxFcy6ik/mWnmGII4mG8gqT0GPlHP/wBc1j/8JBd/89dN/wC/H/2NaumavoqNPcajY208s7Z/epu24z0q/wD274V/6BGn/wDfmqpztBc0nf5mtSmuZ8qVvkYM9yI9Mu7rT0/0NZSqBtzhFGNvzN1Jz09j2qq/jq8u5YMbLWKA5CIBz7/WqEjpFdz2Edys0PmFRkbUznBPcCsO5tpbWWRJEICMVz9DXXGlGp8av2OCrU5HaDNfU7eF3S5M3lpPlgME4bOGH5/oRVHyLb/n8/8AHDXSeHPEGlwaWLbUopG8tj5bIpPXr/T861f&amp;#43;Ek8Lf88bj/vhqXNKOlmK3Nrc/9k=&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/dazui_hu9732476348586672733.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/biaozi_standing.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;399&#34; height=&#34;600&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAFQMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AIrXwwLjw0HcrGFtwctwOnU074eWyzWU0MZV2fCnaQe4H9TWr4kmgi8PWml9PtKKZOcfIMcfj/Sl8K6db6PpaSWMjkOXyHHzAgFhz6fLSvqPod9paLLplu7r82wZzVvyI/7o/KsrRdSjj05UcEkMwBAz3NX/AO1YPRvyquZiseJ&amp;#43;JNdstQktDZPJP5MQWQqjDB/Ec1oeG/EFvBs&amp;#43;2yuimQAKYmJAwQTwP9qt&amp;#43;8t31Dwmq26BpTGrLj2Iz&amp;#43;mawdMnmt9UaOaQubdlXOMAYwcClzNIhwTlc6fRPFGkQ2RjnvokYNn5yRnIB/nmtL/hLNC/6CVv/wB9VQ0a6hhvdRgkIGyYkZ/3m/oBWt9ttfVKyludEdj/2Q==&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/biaozi_standing_hu13433702381778799458.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/biaozi_shuai.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;600&#34; height=&#34;399&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APGywx0qSGN3DbFZsDJwM4qGuu8D26Xd3JZncvnLtZ1/h9KB3MUJ/oQP&amp;#43;1XRGEG40oY6iqniWyGmavdWWADFKAcdCdoJI&amp;#43;pOcds1o/8AL7pI9v60mUkcItdV4MBW&amp;#43;Z1YqRjGO1cqOorrPBv/AB9N&amp;#43;FXDcwqu0Shq08s99LPNIXkmlZ2J9Sa2yxF3pZ9FrB1H/XD6n&amp;#43;Zrdb/j50z/AHazZvE//9k=&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/biaozi_shuai_hu7778400451470266061.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/20240731-DSC_3853-Edit.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;600&#34; height=&#34;399&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AMAaQ2orBaxxu0iKFKopJJrQ8PaFpNpJL/ak0rSmQRwweZtyPX168VvaHHt1NZ4pTC68h1xzxiuf8aGGW/tBDKryRlizDg/ezz6mvKi7wXmd8qso1nBGnrmlLpsKajbeaqxMGMckgZo88g8fl&amp;#43;FLL4lbTrKCfULNp/tMZYlmzuB&amp;#43;tU/DpOq6g2nzuGW5j2lS2ckcjn8Kd4rN1Pbx2dw&amp;#43;fs37tVKgEc//AFqz9gpa20NXinH3X95atHdI2wxyqEg1yF7M9zelpMElfT3rrrf/AFb/APXOuNl/4&amp;#43;/wP861il7vzOWTftpfInsJ5rG882GVw6jIbPNbnia9knsbe6fmSWIFz6mufT/Xt9P6mtfxB/yBrL/rjV/asVLWB//Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/20240731-DSC_3853-Edit_hu5041080283583382375.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/20240731-DSC_3837-Edit.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;399&#34; height=&#34;600&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAFQMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/ANG3sfCWpfZNOLXLXUcZiLooQ8ZJLAjr9abcaLo/hdD/AGkst5Zzg/Z5ApGD3VgPqMGuQ0q3leQXstyJHmHQdRgkc&amp;#43;/Ga6yTUrlfDOoWjv5qvA2PM52kAkYzWSxChOzLcHa2xwcC6XDJJ9uSeUNjyyjbMDnr69qm83w5/wA&amp;#43;15/3&amp;#43;/8ArVlNczA7lyc/pTftVx6GuqNWnbr9y/zBw8zotCkje1CqfuttPtk//Xq/ql9H9naytnJkmO12A&amp;#43;6v49M1NZHQdQtZEsrhbOSQcjGMH6ZH6UyDwrIbhil7a3TsvOJcPuzkHHNeZeLd3obSjK90cvCAFOHhzuOd7YqTH&amp;#43;3a/wDfddLpfhWWwhcXltbSzO2SXmGAO2OPrV7&amp;#43;xYv&amp;#43;gfZf9/h/hWc8QlJpRbEozsf/2Q==&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/20240731-DSC_3837-Edit_hu18325312873655879653.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/20240731-DSC_3834-Edit.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;399&#34; height=&#34;600&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAFQMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AOZl8I3VyQlpB5sgRXJi&amp;#43;YAMMjJHQ0ltbNYpNa3MCrIG2udmXXg&amp;#43;tbWpahLYraS2k4VYlCywbAQWBOCffkVdZ5db0kajFGsktm481lXkoP73FefUXtFZM3U5Rjc4s2t1KSQk6/MemeaPsN5/08frXb3VwkoiezQbXQMcJnrVfzLj/nmf&amp;#43;/dbctNaXM1jKr6GDe21xqFxdSQIxSBA7/h1/wA&amp;#43;1T6Dqt7o8ytE7eUxJdVPDVce&amp;#43;8PXEs7QPe2DeWcqWDoSOnB5yfyqDT9NudU81Ip7eN9uEEjbMsfTGT0zxXPGUk3c6FBWJJZoLfUrzHnojyb0ETDABGQP1pft8H9&amp;#43;9/76/wDr1QutL1a2vJYbm2uGkjITzI4yyuAAAQcciovsV/8A8&amp;#43;t3/wB&amp;#43;W/wqXCd9Hocsk7/Cf//Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/20240731-DSC_3834-Edit_hu15816103352055350504.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/20240731-DSC_3826-Edit.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;600&#34; height=&#34;399&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/ANx4IvtazQTwyOqFQq4BxnPasefWNI&amp;#43;1bY7Nbu834fzGIPXkjnGB7VqNa29oDLaxruC4zXHWfhm5u9Xyt621TlAi5ce39M1c5X1kRBdjr9QcalZ7bZkgmH3GPzIT&amp;#43;P8AOuFWZ9JluGu7Vi2/5gDhlbk5rfvYLvTZtkxZWzgBuD&amp;#43;VXdGV9cu/srWscrRgOWf&amp;#43;6CMjP41jJu68uhvf3X5mlqA&amp;#43;z6eXU5z8uD/Ot/RrW307TYHjhRpJFBZyOSSM9awdY/5Bf/AhXSW//ILtf9xP5V00&amp;#43;pxyMPVtOtryxN3cK7zSuWBDYC88DFS&amp;#43;GLSKy05Z41zLcfeY9gDjH6VLe/8AIFi/H&amp;#43;dO0T/kD2v4/wDoRogvf&amp;#43;RUn7h//9k=&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/20240731-DSC_3826-Edit_hu8279116019694199557.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/20240721-DSC_3778-Edit.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;399&#34; height=&#34;600&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAFQMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/ANtNqIgRBjHpUpG4dBms&amp;#43;C5DLhmBFTC8j9SfoM12cpy8xT1GWxtpgs80CORnEkhBx69Kp/bdL/5&amp;#43;LP8A7/H/AArlPGt61xrvlh1RYYlAz3zk1z&amp;#43;5v&amp;#43;eyflWEqlnY2jTTVzsYdS5wZkOOoDlastqcMjq7TNDB5eRvySTgdR161yMF4Wx8&amp;#43;R6VYnu541yNqgjqyitXK5mo2K3iGeJtREuEO&amp;#43;McgEev/wBasvz4fRP1puqS&amp;#43;ZOpJDHb1HFUsj0rnnrJm8dEf//Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/20240721-DSC_3778-Edit_hu13316935025090637086.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/20240721-DSC_3776-Edit.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;399&#34; height=&#34;600&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAFQMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AOVijj8kbI8MOVwcGhoEaHa7ujOwAYgsOfXPBq5plp9skS3gTdLJ0Qn5jW3qGmyWOk2yXUPlxh2ChhjLZ6n/AD2rdyi0ctmcFeWWy4ZI7cELxkZ596g&amp;#43;yP8A8&amp;#43;1dHcpbNLj7PlgOSG61D5Nt/wA&amp;#43;zf8AfVczjK&amp;#43;n9fgbJqxs&amp;#43;E9VGlak1y8SyFoyoDMFx3zn8Kq&amp;#43;IfFB1W&amp;#43;jUx&amp;#43;XboSyIpyS3ckmuRN3JcKcOV/GkkLJARMCe6saWvNuadNjakui7ZHHtTPtD/3hWZHI7Rg546cmnb29R/31W/PHuZ8jP//Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/20240721-DSC_3776-Edit_hu9814039392366189388.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/20240721-DSC_3769-Edit.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;600&#34; height=&#34;399&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APMrYIEw6DHetY6dNHpQ1FrZvspfYHPTP&amp;#43;e9YsUg6u&amp;#43;a6Pw5daXexXem6heG1W52bHJ4yD0yeB260pSY0kYssgZhhQR2ANRblCthDz6nmus8W&amp;#43;CovDlhFfR6ks6SNtCMoBHGRyDz&amp;#43;VcY0pPK1cLbkyvsURIxGM1atl8yQIeO&amp;#43;cVSWr9l/wAfA&amp;#43;lQy0Ov3ka4QSSFyq4BPp0/pVV5GGRnirV//wAfQ/3f6mqUnU1SXQlu5//Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/20240721-DSC_3769-Edit_hu7219410002923516753.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/20240721-DSC_3763-Edit.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;399&#34; height=&#34;600&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAFQMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AOV0/kAiNAAMknniu90LatoCsYUMeMCuP0y1wglQxKhUbCX6nvk4/pXY2xNvbxglSWQM2OMH0xW9GnFHPUk2XZURmzgflTPJT&amp;#43;6Pyqu18B0xz/eyKT&amp;#43;0P9z866eUy5jldMmCW6JyBjoWzTtW1ixZ7cxTz28sXDoiblkOcc1hLfZAVFRcdQMHNTLCssJeYYI53Ed645bLXY6o6N&amp;#43;Zti&amp;#43;VhkyxKfbj9MUfbF/5&amp;#43;E/76P8AhXNz38XmH52Y9zu61H9vj9T/AN9V0&amp;#43;0Zh7M//9k=&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/20240721-DSC_3763-Edit_hu5500308397946376650.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/20240527-DSC_3527-Edit.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;600&#34; height=&#34;399&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AOv0jW9K1SFWs7uNyeqk4YdRgjseDRrd6sJhtVlRXlPKsOorwW01W6toikepXEJZy5IGeSCCfUda7PSdQuZ9ES5lgVZUJaBwSAyjAGASeSBj9aKlSTWpVOkr6FzWLmO2kkLIpmtwWba4&amp;#43;5lQc&amp;#43;p59RXE6hfqb&amp;#43;aW1dhFJg4PBB28j9SK7q90jSfE0X2qC7eCeVBllIYEgfxD/wCv2rg9d0K80OfZcLviY/JMoO1vb2PtWLg0U3cpSRBYWPXj0qxb3t1vSFbiQBV4JbOPTiopv&amp;#43;Pdv92kt/8Aj8H&amp;#43;7WySe4NtbE9xqNxZyjym2SE7t6fLn/gPTtWytzeavpclvd3kjbuei49uMe3rXOan/wAfC/T&amp;#43;proNK/49z9KHo0StUz//2Q==&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/20240527-DSC_3527-Edit_hu16861221078179417158.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/20231204-DSC_2202.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;600&#34; height=&#34;399&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APJ9op2zjgClC1f0fS59W1GO0tovNc5bb2wBk5oJ1bsZuz6UxlOa6nXNNv3eHzrFYRBDhsJt6fz&amp;#43;tZdnZfaZgqjjvxTguZXJqSVN6lEV1vgG9ezvbpkUEvHgk9eorkhXSeDP&amp;#43;Pyf/c/qKiWzNVo0b2v38jIzsoJ5rEsNtrZmZVyxXNaGu/6hvp/Ws&amp;#43;H/AJBg/wBwfyrWhscuNeqP/9k=&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/20231204-DSC_2202_hu17191370681832576614.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/20231021-DSC_2017.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;600&#34; height=&#34;399&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APIqKKMigAph610WlWiTWCA3EaxvuMylMsecAZ/DP41mz6LfxIZfs7eV1VjgFh2OOtIbM&amp;#43;um8DeGbbxNqssN3NJHDBH5jLHjL8gYz2rma7/4R/8AIZv/APr2H/oQpiKHj60ttG1qGx02FbaBIB8q8ljk8knqaj1vWZrOwtLNI1LeQuZD9PSrPxQ/5Ghf&amp;#43;uK/zNYvib/WWn/XBf5UwP/Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/20231021-DSC_2017_hu15259644465507408799.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/20231010-DSC_1925.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;399&#34; height=&#34;600&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAFQMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/ALczxQgbmVATgZOM1Ra8t5XdI5VZk&amp;#43;8B2rD1GbUbp4l8sF1wTEEJKt78celdJYaM0lhaTalIDHDHIREVwRu5IbHXBBx9a8v2C&amp;#43;0zr5la6KzGOTBODSbI/wC6K5tb9bdmWBmRCcheo/Wnf2tJ/wA9T/3yKt4aotDH29N9T1zZFJztG4&amp;#43;1c/4hlvreRI7faqFTkbCSfx9KvxXvm2wkQmMkcbh0/CqsuoCO3E144ZDwhHJJ9K8bL5103Tfwrv0OyrCLV1ucbHor3eZhZiMMc8sQD7gdqd/wjkn/ADwT/vs1up4n01iwME6lTjAUenfPenf8JLpv/PG5/Jf8a&amp;#43;g533OH2Hkf/9k=&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/20231010-DSC_1925_hu5508374301503719503.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/20230916-DSC_1732.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;399&#34; height=&#34;600&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAFQMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APPL&amp;#43;2ndC32Z0Jf7uOlWo/D0sGmW2pK24uclQOleiWenNdarJEEUyYLYPTIGawrZbS11rUbNoJreKW3jfbOST5wHzdfqfyrmqOSi&amp;#43;XoaQiupzXnRyDccZ96N8XtT7jRppbiR4nj2FuBvHFR/2Hd/30/7&amp;#43;Cmo31dwdu56fY6jDba1LJGwZgxGc8EbSf6VyGsalLqniJQoV28wEEDtnJq7p18IY59rbTLEY8gZIzXMX&amp;#43;gXRlMltdkqw5zlSvt15FSq0ZQ10Zp7JqemqNVtAtDPJJcFULnPyOuPfvR/YOmf89D/AN9r/jXMNoN4pwZSfo1J/Yd3/wA9G/76qOeP8xfJL&amp;#43;U//9k=&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/20230916-DSC_1732_hu10555110150280978901.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/20230916-DSC_1727.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;399&#34; height=&#34;600&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAFQMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APKIrWe5kKwxtI55wozWs2lXP9lp9oiZJEJAB7jtWv4Os2aK9yjCQMmwEcnrxVrXrpbU/ZjEzSBgHK9I&amp;#43;3J&amp;#43;uBXNOc1U5UtDojTj7Pmb1OMXSr2ZA8cDOp7gil/sbUP&amp;#43;fV/0re0&amp;#43;/srMSpdSzRFmyNqbw38sVc/tvSP&amp;#43;fyf/AL8f/XpOpWvotBqnStqzU8OXQt47gR2wSeM8TbuZCOcYPp/Wqmq&amp;#43;IbKXVZXs7R9sigTEqVDsCecH61Y&amp;#43;WHCjo5Yn3&amp;#43;Yj&amp;#43;lVr23a5tnRHMEjYxIOo/wAior4jmk4NaXLoUOVKaetisdQtXJb7Kik9fkHNJ9utv&amp;#43;eCf98iq6WUtoSryWtxuxzMjZH5Edfen7T/AM8NO/74k/8AiqxtD&amp;#43;b8za8/5T//2Q==&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/20230916-DSC_1727_hu13215503299587468770.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/20230719-DSC_1617.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;600&#34; height=&#34;253&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIAA0AIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APRwNtttlkLnuuOR/jU0DfuwVOAemBx1rPllcSsd52gZwO/HrWjho7YEuSeoxxQAouoSXy6kIeSQQPpk9elRSvIJAMDZuH0x65pHSNY87MryxVjkevHpUlsUljJMYwG6ZpDP/9k=&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/20230719-DSC_1617_hu18271183071770231171.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/20230716-DSC_1601.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;399&#34; height=&#34;600&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAFQMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/ANqGe5kID3M7DuA5/pV0&amp;#43;Ys22EyxLIu1Wkctz681lQXG3BVtpHcGrMt1N5YLuXyDt39M1y1oOat0EyHUZ4obgAsXcj5mUgE/Wqn22L0f/voVDMxmIMzqzDvtBqPy4v7y/wDfArj&amp;#43;ryWyIOnk8M6dZQmWaeYgcAb&amp;#43;p9BVaw0OC6u57m4nLAqqxxqNu0D19T0re8SWy/2JK5dVaMhlLHAznH9axfB9wt7DLLLIpfaMJnkcnOR&amp;#43;Ar2HBX0K5ug2bQdPEnQ/99Go/wCwtP8AQ/8AfRrZu7YNNkED8ag&amp;#43;y/7Q/Oi3kB//2Q==&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/20230716-DSC_1601_hu5650140019603810006.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/20230713-DSC_1558.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;600&#34; height=&#34;399&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AN21s47i4nWbTYokik2pkA7h69K0bjTNImiDS20SBO/A/WvM4PiVqQOZRE/rlP8A69XPFGtXOpeGrSdNgkdt7RoSOM8fX3rhdGz1R2qtJ7NnfWmj6KbhJVjjcj7pzkVpzX9hbv5T3EUTHorEDNeTeGteOjWDTX8csq3DfLyFVSBnjjrz60ahe&amp;#43;GtYuTcXKXokPcS5x&amp;#43;tOEGtthVJuT953OEFdHp9wzxRwtyuDjPaucHSt3TfvR/7presk1qY0W09Buv3TtFDan7iEsv8qxMn1rV13/Xp9D/Osk1cFaOhE23Jtn//2Q==&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/20230713-DSC_1558_hu17361666738320006693.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/20230712-DSC_1532.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;399&#34; height=&#34;600&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAFQMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AMefV9Q1dpJbq7LRRtkbm&amp;#43;UEgDP5AVzd9EqyuTuKnncDnNWLd3E0e1j87qSqjv0qw5hlnmidf9RuUFm&amp;#43;8QeTj8azUbM5Yxle5hy22/ayEDI71H9jf&amp;#43;8KnkkKSMqLuXPHtTfPf/nka0NDo7jSV0e2S6Sdp2WRQAyYXJNUri6FzJK0WftErZ&amp;#43;UYyc9K7aUb7FvLUPuXGG6VwR8N6tFfCaOQAK&amp;#43;5WJ6c&amp;#43;lNJDTK8ml3ZcnGCevFN/su7/yDXWwxXaxDzJEZsck96k23H99KYH//2Q==&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/20230712-DSC_1532_hu13597439910038909417.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/20230710-DSC_1519.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;600&#34; height=&#34;338&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABIAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AOR0&amp;#43;Sa6m2Cwd3IyT5jjj1yeK27Ym3nHmzMoQfcN1FKMemCR/OsZdUtLy1RJEuYkTun3T9fekhsrB7eaeO8e7mSRfKtiSDIp6g&amp;#43;/0rJruZKN2aokhtJL0QOfIaNnjyuCGwcD8CT&amp;#43;QrE1SApb2lig/wBVGJ5v958f02itGbTLjTfs0VxGqfa9qbd3K5ODkevep9btRZWckzurXF1cq/8AuqqhsfTLH8hSSIknF2I5kUG3jCjZsHy44/Ks&amp;#43;5VUvQqAKpJyAMA9K0Zv9bb/AO4Kz7z/AI/0&amp;#43;p/pWzBfEXb93eXSy7Fj5y9TntTPGJPmxDPGF/8AZqW9/wBZpn/XYfyNN8Y/66L6L/7NWbLluf/Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/20230710-DSC_1519_hu14533476976731851499.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/20230531-DSC_1422.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;399&#34; height=&#34;600&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAFQMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APLvK4qN0q8VCqSeAKZNA6xrIUIVxlTjrUolGYw5pMVLIvzU3bVFG/JC9pOpbHy/MpIyDitP7ZbapDLA8SKJpTIWPBU5OAvZRyeKz4tSWaHyZ4xIAeD3q&amp;#43;hsRaA&amp;#43;S8bKMA4pU9HqQ27WRzepWb2N69vIQSh4I6EdjVTFdFfW66qsLRMBLCpRyepH8P8AWqf9gzf89FrV05PVbBF6an//2Q==&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/20230531-DSC_1422_hu8282990339529156871.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/20230531-DSC_1410.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;399&#34; height=&#34;600&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAFQMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APMI5AX3SA4AwT79s1b0JZDqMbJ0QFnGB93vVXy3KlQuS3Jwc/561e09JLeRbghhvG1SB97jmpbAp3zRPduUi8pM/KtQfJ6/zqa8DxXUiupDbjye9Qbz6UAXbbTpBIJZF3RgEsPUYr01NOsbbwdZ3s7obh5IyS3YeWRtUDpgfng1x&amp;#43;m2N5qFmzACGEjmRh94d8DvXcWunw3trBbXaZihKlVViMEDG4EYwcU2ribafkedaxM0V&amp;#43;5&amp;#43;zDax&amp;#43;XzODj1xVD7Z/wBO0Veh33wqe&amp;#43;nM9trrSxt90XC5dPYnPP5Cq/8Awp66/wCgvD/3wf8AGjUd0f/Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/20230531-DSC_1410_hu6266000048300923677.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+
+			
+			
+
+			
+			
+				
+			
+
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+
+			&lt;div&gt;
+				
+				
+					
+					
+				
+
+				
+				
+					
+					
+				
+
+				&lt;a href=&#34;http://localhost:1313/gallery/birds_collections/images/20230530-DSC_1394.jpg&#34;
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img
+						width=&#34;399&#34; height=&#34;600&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAFQMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AI/h40aaCs7PteKSQAHkcj0qj4iugYWU55LPyMcnJzj1qt4SAXSmBf8A5aE4B4wR/wDWqprk6PbM0LrIu7aWToPb&amp;#43;dYN3ZHUsaPHH5l26hWVpFIOPVQf61p7E/55j8qyvC8sQ0&amp;#43;V5VPzTHG3/dFbP2i19GqXuUbOsaTMkcS6fYwpEkeNsACiuFWxvLa6n0&amp;#43;fTrhbe7ZVLbCxB6jHpg16E13JbyKUdsOgJjf&amp;#43;E/Tt61W/tGeaTLxKgU4V0fqe5xWysncDk9L0trC2ktrptrLMxU/3hgc/pV37PB/z1Nb8t7DGSt5DI7KSqskO7OMdTUf9oab/AM&amp;#43;1x/4DUcotD//Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;http://localhost:1313/gallery/birds_collections/images/20230530-DSC_1394_hu14446953996906477241.jpg&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+	if (!(&#34;HSCGjQuery&#34; in window)) {
+		if (!window.jQuery) {
+			throw new Error(&#34;jQuery is not loaded, hugo-shortcode-gallery wont work without it!&#34;);
+		}
+		window.HSCGjQuery = window.jQuery.noConflict(true);
+	}
+
+	
+	
+	
+	
+	
+	;(function($) {
+
+		$( document ).ready(() =&gt; {
+			const gallery = $(&#34;#gallery-e758e866070711f7e84a38ebfa636591-0&#34;);
+			
+
+			
+			let swipeboxInstance = null;
+
+			
+			
+			gallery.on(&#39;jg.complete&#39;, () =&gt; {
+				
+					
+					
+					$(() =&gt; {
+						$(&#39;.lazy&#39;).Lazy({
+							visibleOnly: true,
+							afterLoad: element =&gt; element.css({filter: &#34;none&#34;, transition: &#34;filter 1.0s ease-in-out&#34;})
+						});
+					});
+				
+
+				swipeboxInstance = $(&#39;.galleryImg&#39;).swipebox(
+					$.extend({},
+						{  }
+					)
+				);
+			});
+
+			
+			gallery.justifiedGallery($.extend(
+				{
+					rowHeight : &#34;150&#34;,
+					margins : &#34;5&#34;,
+					border : 0,
+					randomize :  false ,
+					waitThumbnailsLoad : false,
+					lastRow : &#34;justify&#34;,
+					captions : false,
+					
+					
+				},
+				{  }
+			));
+
+			
+			
+		});
+
+	
+	
+	
+	})(window.HSCGjQuery)
+&lt;/script&gt;</description>
+    </item>
+  </channel>
+</rss>

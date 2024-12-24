@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Birds on shaoqisama</title>
+    <link>http://localhost:1313/tags/birds/</link>
+    <description>Recent content in Birds on shaoqisama</description>
+    <generator>Hugo -- 0.136.4</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 28 Nov 2024 14:23:41 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/birds/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Birds @ Zoo</title>
+      <link>http://localhost:1313/posts/bird_test/</link>
+      <pubDate>Thu, 28 Nov 2024 14:23:41 +0800</pubDate>
+      <guid>http://localhost:1313/posts/bird_test/</guid>
+      <description>&lt;p&gt;Here is a bird image that I would like to share with you:&lt;/p&gt;
+&lt;img src=&#34;https://s2.loli.net/2024/11/28/aAv79WVPD8nBHIQ.jpg&#34; alt=&#34;DSC_2384-Enhanced-NR.jpg&#34; width=&#34;400&#34; height=&#34;auto&#34;&gt;</description>
+    </item>
+  </channel>
+</rss>

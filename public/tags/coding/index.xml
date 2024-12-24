@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Coding on shaoqisama</title>
+    <link>http://localhost:1313/tags/coding/</link>
+    <description>Recent content in Coding on shaoqisama</description>
+    <generator>Hugo -- 0.136.4</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 19 Dec 2024 14:37:38 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Config Ntp Linux</title>
+      <link>http://localhost:1313/posts/config-ntp-linux/</link>
+      <pubDate>Thu, 19 Dec 2024 14:37:38 +0800</pubDate>
+      <guid>http://localhost:1313/posts/config-ntp-linux/</guid>
+      <description>&lt;h2 id=&#34;1-understanding-chrony-vs-ntp&#34;&gt;1. &lt;strong&gt;Understanding Chrony vs NTP&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Chrony&lt;/strong&gt;: A fast, flexible NTP implementation for Linux, ideal for intermittent or variable clock systems.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ntpq&lt;/strong&gt;: A tool for querying traditional NTP servers (&lt;code&gt;ntpd&lt;/code&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;Feature&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Chrony (chronyc)&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;ntpq&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Implementation&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Part of the Chrony NTP implementation&lt;/td&gt;
+          &lt;td&gt;Part of the ntpd implementation&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Focus&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Lightweight, fast synchronization&lt;/td&gt;
+          &lt;td&gt;Detailed monitoring of ntpd&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Efficiency&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Better for unstable or intermittent networks&lt;/td&gt;
+          &lt;td&gt;Less efficient in unstable networks&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Time Sources&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Supports NTP, GPS, PPS, and more&lt;/td&gt;
+          &lt;td&gt;Primarily NTP&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Commands&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Uses chronyc for querying and control&lt;/td&gt;
+          &lt;td&gt;Uses ntpq for querying ntpd&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Suitability&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Ideal for modern systems and VMs&lt;/td&gt;
+          &lt;td&gt;Traditional systems with ntpd&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>C dev env in WSL</title>
+      <link>http://localhost:1313/posts/c-dev-in-wsl/</link>
+      <pubDate>Mon, 02 Dec 2024 14:28:52 +0800</pubDate>
+      <guid>http://localhost:1313/posts/c-dev-in-wsl/</guid>
+      <description>&lt;h1 id=&#34;setting-up-a-c-development-environment-on-vs-code-with-wsl-ubuntu&#34;&gt;Setting Up a C Development Environment on VS Code with WSL (Ubuntu)&lt;/h1&gt;
+&lt;p&gt;Learn how to configure a complete C development environment on &lt;strong&gt;Visual Studio Code (VS Code)&lt;/strong&gt; using &lt;strong&gt;Windows Subsystem for Linux (WSL)&lt;/strong&gt; with Ubuntu.&lt;/p&gt;
+&lt;hr&gt;</description>
+    </item>
+  </channel>
+</rss>
