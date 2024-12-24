@@ -7,7 +7,7 @@ resourceDir = "../resources"
 
 DefaultContentLanguage = "en"
 # SectionPagesMenu = "main"
-googleAnalytics = ""
+googleAnalytics = "G-FRD7K3PW8H"
 enableRobotsTXT = true
 
 [markup.goldmark.renderer]
