@@ -1,0 +1,17 @@
+<!-- <link href="/lib/artalk/Artalk.css" rel="stylesheet" /> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/artalk/2.9.1/Artalk.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/artalk/2.9.1/Artalk.js"></script>
+
+<!-- Artalk -->
+<div id="Comments"></div>
+
+<script>
+  Artalk.init({
+    el: '#Comments',
+    pageKey: '{{ .Permalink }}',
+    pageTitle: '{{ .Title }}',
+    server: '{{ $.Site.Params.artalk.server }}',
+    site: '{{ $.Site.Params.artalk.site }}',
+    // ...your additional configuration
+  })
+</script>
