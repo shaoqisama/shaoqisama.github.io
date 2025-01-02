@@ -63,9 +63,6 @@ url = "https://github.com/shaoqisama"
 name = "email"
 url = "mailto:acousticsung@gmail.com"
 
-[params.artalk]
-server = "http://123.56.19.239:8080"
-site = "shaoqisama"
 
 [params.ananke.social.follow]
 new_window_icon = false # show a little "opens in new window" icon next to the link

@@ -1,5 +1,1 @@
-<!-- {{ template "_internal/disqus.html" . }} -->
-{{ if or .Params.comments .Site.Params.comments }}
-<!-- {{- partial "artalk.html" .}} -->
-<div class="article-comments">{{- partial "artalk.html" . -}}</div>
-{{ end }}
+{{ template "_internal/disqus.html" . }}
