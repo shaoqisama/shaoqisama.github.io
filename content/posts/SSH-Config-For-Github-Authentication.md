@@ -1,6 +1,6 @@
 +++
 date = '2025-01-07T10:43:51+08:00'
-draft = true
+draft = false
 title = 'SSH Config for Github Authentication'
 tags = ['coding', 'linux']
 ShowToc = true
