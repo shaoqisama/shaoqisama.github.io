@@ -100,6 +100,10 @@ username = "kollitsch.dev"
     name = 'Posts'
     pageRef = '/posts'
     weight = 40
+  [[menus.main]]
+    name = 'Archives'
+    pageRef = '/archives'
+    weight = 50
 
 [services]
   [services.disqus]
